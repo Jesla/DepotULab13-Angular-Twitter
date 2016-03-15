@@ -1,8 +1,9 @@
 angular.module('myApp', [])
-	.controller('MyController', ['', function(){
+	.controller('inputCtrl', ['$scope', function($scope){
 
 	}])
 	.config(['', function(){
 
 
 }]);
+

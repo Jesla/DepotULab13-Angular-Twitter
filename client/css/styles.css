@@ -1,0 +1,7 @@
+.inputBox {
+    display:inline-block;
+    width:150px;
+    height:80px;
+    margin: 0 0 0 0;
+    /*vertical-align:middle;*/
+}

@@ -10,6 +10,8 @@ Angular usage [examples](https://github.com/curran/screencasts/tree/gh-pages/int
 Utilize Angular's built in functionality to simplify your client side code. Consult the angular [docs](https://docs.angularjs.org/guide/introduction)
 Note: During this project, always choose to code using angular templating instead of using plain javascript and html. Review Dependency Injection, '$location','$scope', $resource', 'ngResource', 'ngRoute', '$routeProvider', '$http', '$rootScope' as they may be needed
 
+	* It should contain a form which submits post data and a list of all tweets.
+
 ##### client
 * html - Style your application .
 	* index.html - The following compenents are included as [cdns](https://en.wikipedia.org/wiki/Content_delivery_network) in the html page: jquery, bootstrap (css and js), angular, angular-route, angular-resource and momentjs. Make edits if needed to customize but index.html has been implemented already. Take time to view the structure and note ng-view. This is where the other view templates will injected.
