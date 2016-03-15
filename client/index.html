@@ -8,24 +8,13 @@
 	<body>
 		<div class="container">
 			<div class="page-header">
+                
+                <!-- ADD A FIXED TOP NAV THAT LINKS TO WELCOME AND TWEETS VIA ROUTING-->
+                
 				<h1>MyTweets!</h1>
 			</div>
-            
-                <div ng-controller = "inputCtrl" class = "input">
-      <input class = "inputBox" type="text"/>
-    <div class = "submittedTweets">
-
-<!--link to tweet server - put in div boxes with borders-->
-
-    </div>  
-  </div>
-            
-            
-            
-            
-            
 		</div>
-		<!--ng-view is where html templetes will be loaded when page is navigated to-->
+		<!--ng-view is where html templetes will be loaded (via routing) when page is navigated to-->
 		<div ng-view></div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
